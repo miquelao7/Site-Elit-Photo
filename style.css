@@ -1,0 +1,394 @@
+.menulateral{
+    width: 60%;
+    height: 100vh;
+    background-color: black;
+   top: 0;
+    position: sticky;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+#elit{
+color: white;
+margin-top: 0px;
+margin-left: 40px;
+font-size: 20px;
+padding-top: 35px;
+}
+.palavras{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: 12px;
+}
+.palavras2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 12px;
+    
+}
+#x{
+    width: 14px;
+    height: 14px;
+    margin-top: 45px;
+    margin-left: 15px;
+    
+}
+#f{
+    width: 14px;
+    height: 14px;
+    margin-left: 40px;
+}
+#i{
+    width: 14px;
+    height: 14px;
+    margin-left: 15px;
+}
+#imagemfundo{
+    background-image: url(img_9.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+    
+}
+#textolorem{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: brightness(50%);
+    color: white;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+
+}
+body{
+    display: flex;
+    background-color: black;
+}
+#textolorem p{
+    width: 60%;
+}
+button{
+    border: 0;
+}
+.button-contact{
+    width: 160px;
+    height: 50px;
+    margin-top: 5%;
+    border-radius: 50px;
+    background-color: #df0e62;
+    color: white;
+}
+#WELCOME{
+    font-family: "Oswald", sans-serif;;
+    font-weight: 350;
+    font-size: 60px;
+    padding: 10px;
+}
+#texto{
+    line-height: 35px;
+}
+.imagens{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imagem{
+width: 33%;
+height: 300px;
+object-fit: cover;
+transition: 15;
+}
+#test{
+color: white;
+text-align: center;
+font-size: 50px;
+padding: 150px;
+
+}
+#person{
+    border-radius: 80px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 55px;
+}
+#jean{
+    font-size: 20px;
+    padding-top: 15px;
+}
+#botao1{
+    background-color: rgb(65, 65, 65);
+    height: 6vh;
+    width: 50px;
+    border-radius: 30px;
+}
+#imagemesquerda{
+    height: 20px;
+    fill: white;
+}
+#botao2{
+    background-color: rgb(65, 65, 65);
+    height: 6vh;
+    width: 50px;
+    border-radius: 30px;
+}
+#imagemdireita{
+    height: 20px;
+    fill: white;
+}
+#pessoaa{
+    border-radius: 100px;
+    object-fit: cover ;
+    width: 170px;
+}
+#Lorem1{
+font-size: 20px;
+padding: 20px 25%;
+text-align: center;
+padding-bottom: 100px;
+}
+#perfil{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    margin: auto;
+}
+#t{
+    padding-bottom: 50px;
+}
+#geral{
+   background-color: #181818; 
+   height: 180vh;
+   padding: 10% 20%;
+}
+#bio{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 70px;
+}
+#im{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#person3{
+    padding-bottom: 50px;
+}
+#lorem3{
+    color: #808080;
+    font-size: 19px;
+    padding-bottom: 50px;
+}
+#dez{
+color: white;
+font-size: 28px;
+padding-bottom: 10px;
+}
+#lorem4{
+    color: #808080;
+    font-size: 20px;
+
+    
+}
+#box{
+    padding-top: 40px;
+    display: flex;
+}
+.lista{
+    font-weight: 100;
+    color: #808080;
+    padding: 10px 0px;
+    padding-right: 150px;
+}
+.certo{
+    width: 30px;
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+}
+#blog
+{
+    height: 250vh;
+    font-size: 10px;
+    display: flex;
+    background-color: black;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: start;
+    color:aliceblue
+}
+
+#blog h1
+{ 
+    margin-top: 15%;
+    margin-left: 22%;
+    font-size: 55px;
+}
+
+#box
+{
+    display: flex;
+}
+
+#blog h1
+{
+    font-family: "Oswald", arial, sans-serif;
+}
+
+#blog img
+{
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 100%;
+    height: 203px;
+    width: 250PX;
+    object-fit: cover;
+    transition: 15;
+    background-attachment: fixed;
+}
+
+#blog h2
+ {
+    font-family: "Oswald", arial, sans-serif;
+    margin-top: 17%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#blog h3 
+{
+    font-family: "Oswald", arial, sans-serif;
+    margin-top: 2%;
+    margin-left: 10%;
+    font-size: 15px;
+    color: rgb(63, 63, 63); 
+}
+
+#vermelho
+{
+    font-family: "Oswald", arial, sans-serif;
+    margin-top: -4%;
+    margin-left: 28%;
+    font-size: 15px;
+    color: rgb(255, 97, 97);
+}
+
+#blog h4 
+{   
+        margin-top: 5%;
+     margin-left: 10%;
+     font-size: 20px;
+     color: rgb(63, 63, 63);
+}
+
+#SEND{
+    margin-top: 20%;
+
+    height: 350vh;
+    font-size: 10px;
+    width: 100% ;
+    
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    flex-direction: column;
+
+    color:aliceblue
+}
+
+#SEND h1
+{
+    margin-top: 20vh;
+    margin-left: 32vh;
+    font-size: 49px;
+}
+
+#SEND a
+{
+    margin-top: 10%;
+    margin-left:32vh;
+    display: inline-block;
+    width: 164px;
+    height: 53px;
+    background-color: #df0e62;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 53px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+#form
+{
+    margin-top: 10%;
+    margin-left: 32vh ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#letterform
+{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+#letterform2
+{
+    margin-top: 10%;
+    font-size: 20px;
+}
+
+
+#letterform input
+{
+     width: 100vh;
+     border-left: 0;
+     border-right: 0;
+     border-top: 0;
+     background-color: rgb(36, 36, 36);
+    
+}
+
+#letterform2 input
+{
+    width: 50vh;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: rgb(36, 36, 36);
+   
+}
+
+#letterform MESSAGE input
+{
+    width: 80vh;
+    height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+
+#prim-parte
+{
+    display: flex;
+    width: 1vh;
+}
+
+
